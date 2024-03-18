@@ -20,7 +20,7 @@ int[] numbers = {1,2,3,4};
 double average = GetAverage(numbers);
 Console.WriteLine(average);
 
-static int MaxValue(int[] array)
+static int MaxValuee(int[] array)
 {
     return array.Max();
 }
