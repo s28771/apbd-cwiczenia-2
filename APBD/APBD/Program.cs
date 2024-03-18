@@ -7,13 +7,14 @@ Console.WriteLine("modyfikacja gita 3 ");
 
 static double GetAverage(int[] numbers)
 {
-    int sum1 = 0;
+    int suma = 0;
     foreach (var number in numbers)
     {
-        sum1 += number;
+        suma += number;
     }
 
-    return (double)sum1 / numbers.Length;
+    return (double)suma / numbers.Length;
+
 }
 
 int[] numbers = {1,2,3,4};
